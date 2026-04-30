@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
 import { LogIn, Smartphone, ShieldCheck, Globe, User, AlertCircle } from 'lucide-react';
 import { auth, googleProvider } from '../firebase';
@@ -245,4 +246,9 @@ const styles = {
     alignItems: 'center',
     gap: '8px',
   }
+};
+
+AuthWall.propTypes = {
+  onLogin: PropTypes.func.isRequired,
+  lang: PropTypes.string.isRequired,
 };

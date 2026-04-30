@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
 import { Users, Activity, ShieldCheck, Heart, PlayCircle, ExternalLink } from 'lucide-react';
 import data from '../data/electionData.json';
@@ -241,4 +242,8 @@ const styles = {
     padding: '32px',
     borderTop: '4px solid var(--navy)',
   },
+};
+
+Dashboard.propTypes = {
+  lang: PropTypes.string.isRequired,
 };

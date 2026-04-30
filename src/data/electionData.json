@@ -32,7 +32,6 @@
       { "name": "Bank Passbook", "purpose": "Updated bank account statement.", "imageUrl": "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?auto=format&fit=crop&q=80&w=300" }
     ]}
   ],
-  ],
   "turnoutTrends": [
     { "year": 1951, "turnout": 45.7, "voters": 17.3 },
     { "year": 1957, "turnout": 55.4, "voters": 19.3 },

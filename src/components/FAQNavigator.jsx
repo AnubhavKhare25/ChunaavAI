@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
   ChevronRight, 
@@ -419,4 +420,8 @@ const styles = {
     marginBottom: '20px',
     opacity: 0.2,
   }
+};
+
+FAQNavigator.propTypes = {
+  lang: PropTypes.string.isRequired,
 };

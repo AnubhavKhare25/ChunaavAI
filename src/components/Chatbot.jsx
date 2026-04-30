@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { motion, AnimatePresence } from 'framer-motion';
+import { sanitizeInput, findMatchedResponse } from '../utils/chatbotUtils';
 import { 
   MessageCircle, 
   X, 
@@ -64,9 +66,12 @@ export default function Chatbot() {
     }
   ];
 
+
+
   const handleSend = (text) => {
-    const query = typeof text === 'string' ? text : input;
-    if (!query.trim()) return;
+    const rawQuery = typeof text === 'string' ? text : input;
+    const query = sanitizeInput(rawQuery);
+    if (!query) return;
 
     // Add user message
     const newMessages = [...messages, { id: Date.now(), sender: 'user', text: query }];
@@ -76,15 +81,8 @@ export default function Chatbot() {
     // Process Query
     setTimeout(() => {
       const lowerQuery = query.toLowerCase();
-      let matchedResponse = null;
-
-      // Basic Keyword Match
-      for (const entry of knowledgeBase) {
-        if (entry.keywords.some(kw => lowerQuery.includes(kw))) {
-          matchedResponse = entry.response;
-          break;
-        }
-      }
+      // Match Query using Utility
+      const matchedResponse = findMatchedResponse(query, knowledgeBase);
 
       if (matchedResponse) {
         setMessages(prev => [...prev, { id: Date.now() + 1, sender: 'bot', text: matchedResponse, isFallback: false }]);
@@ -453,4 +451,8 @@ const styles = {
     cursor: 'pointer',
     transition: 'all 0.2s',
   }
+};
+
+Chatbot.propTypes = {
+  // No props currently passed, but added for codebase quality consistency
 };

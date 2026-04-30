@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import { 
   LayoutDashboard, 
   Search, 
@@ -334,4 +335,8 @@ const styles = {
     outline: 'none',
     cursor: 'pointer',
   }
+};
+
+Layout.propTypes = {
+  // Component manages internal state, no props passed from parent
 };
