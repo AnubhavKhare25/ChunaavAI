@@ -1,0 +1,201 @@
+[
+  {
+    "category": "Voting Process",
+    "icon": "Vote",
+    "topics": [
+      {
+        "title": "Step-by-step voting at the booth",
+        "summary": "The voting process involves identity verification by three polling officers, inking your finger, and secretly casting your vote on the EVM.",
+        "detailedExplanation": "Voting at a polling booth in India is a highly organized and secure process designed to ensure that every eligible citizen can cast their vote freely and fairly. When you enter the polling station, the entire workflow is managed by a Presiding Officer and typically three Polling Officers. The process is designed to prevent voter fraud, ensure absolute secrecy of your ballot, and maintain a smooth flow of voters throughout the day.",
+        "steps": [
+          "First Polling Officer will check your name on the electoral roll and verify your ID proof.",
+          "Second Polling Officer will mark your left forefinger with indelible ink, give you a voter slip, and take your signature/thumbprint on a register.",
+          "Third Polling Officer will take your slip and check your inked finger before allowing you to proceed.",
+          "Proceed to the voting compartment to maintain secrecy.",
+          "Press the blue button on the Balloting Unit against the symbol of the candidate of your choice.",
+          "Wait for the red light to glow and listen for the long beep sound indicating your vote is cast.",
+          "Check the VVPAT window. A slip will appear for 7 seconds showing the serial number, name, and symbol of your chosen candidate before dropping into the sealed box."
+        ],
+        "importantNotes": [
+          "Do not carry your mobile phone or any camera inside the voting compartment.",
+          "Your vote is completely secret. No one can know who you voted for.",
+          "If the VVPAT slip does not appear or shows the wrong candidate, inform the Presiding Officer immediately."
+        ]
+      },
+      {
+        "title": "What is NOTA?",
+        "summary": "NOTA stands for 'None of the Above', allowing voters to officially register their rejection of all contesting candidates.",
+        "detailedExplanation": "The Supreme Court of India directed the Election Commission in 2013 to provide a 'None of the Above' (NOTA) option on electronic voting machines. NOTA empowers voters to express their dissatisfaction with all the candidates fielded by political parties in their constituency. While pressing NOTA does not affect the election result (the candidate with the highest valid votes still wins, even if NOTA gets the most votes), it serves as a powerful democratic tool to signal political parties to field better candidates.",
+        "steps": [],
+        "importantNotes": [
+          "NOTA is always the last option on the Electronic Voting Machine (EVM).",
+          "Votes cast for NOTA are counted and published by the Election Commission.",
+          "Even if NOTA receives the majority of votes, the candidate with the second-highest votes is declared the winner."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "EVM (Electronic Voting Machine)",
+    "icon": "Cpu",
+    "topics": [
+      {
+        "title": "How does an EVM work?",
+        "summary": "An EVM is a secure electronic device used to record votes, consisting of a Control Unit and a Balloting Unit.",
+        "detailedExplanation": "Electronic Voting Machines (EVMs) have revolutionized the Indian electoral process by replacing traditional paper ballots. An EVM consists of two main components: the Control Unit, which is kept with the Presiding Officer, and the Balloting Unit, which is placed inside the secret voting compartment. The two units are connected by a 5-meter cable. When a voter enters the compartment, the Presiding Officer presses the 'Ballot' button on the Control Unit, which readies the Balloting Unit for a single vote. Once the voter presses a button next to their chosen candidate, the machine locks itself, preventing multiple votes.",
+        "steps": [],
+        "importantNotes": [
+          "EVMs are standalone machines. They are NOT connected to the internet or any network.",
+          "An EVM can record a maximum of 2,000 votes.",
+          "It can cater to a maximum of 64 candidates (including NOTA) using up to 4 Balloting Units."
+        ]
+      },
+      {
+        "title": "Security and myth-busting",
+        "summary": "EVMs are completely tamper-proof, non-networked devices that undergo multiple rounds of verification, including mock polls.",
+        "detailedExplanation": "The security of EVMs is a common subject of misinformation, but the Election Commission of India has implemented multiple layers of technical and administrative safeguards. Technically, EVMs use a One-Time Programmable (OTP) microchip, meaning their software cannot be rewritten after manufacturing. They lack any radio frequency (RF) receiver or wireless communication capabilities. Administratively, EVMs undergo strict randomization processes so nobody knows which machine will go to which booth until the last moment. Furthermore, a 'Mock Poll' is conducted on election morning in the presence of authorized agents of all political parties to verify the machine's accuracy before actual voting begins.",
+        "steps": [
+          "First Level Checking (FLC) is done by engineers before the elections.",
+          "Machines are randomized via computer software to assign them to constituencies.",
+          "A second randomization assigns machines to specific polling booths.",
+          "A Mock Poll is conducted on polling day with at least 50 votes cast and tallied in front of party agents.",
+          "After polling, machines are sealed with unique tamper-evident seals signed by party agents."
+        ],
+        "importantNotes": [
+          "The addition of VVPAT (Voter Verifiable Paper Audit Trail) provides an independent physical verification system.",
+          "Any attempt to open the EVM automatically puts it into a factory-locked 'tamper' state."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Documents",
+    "icon": "FileText",
+    "topics": [
+      {
+        "title": "Documents required for Registration",
+        "summary": "To register as a new voter, you need a passport-size photo, identity proof, address proof, and an age proof (if you are between 18-21 years old).",
+        "detailedExplanation": "Registering to vote requires proving your identity, your ordinary residence, and your age to ensure you meet the constitutional requirement of being at least 18 years old. The Election Commission accepts a wide variety of standard government-issued documents to make this process accessible. When filling out Form 6 (for new voters), you must upload clear, legible copies of these documents. It is crucial that the address on your address proof exactly matches the address you provide in the application form.",
+        "steps": [
+          "Passport size colored photograph (recent).",
+          "Proof of Identity (Aadhaar Card, PAN Card, Driving License, Indian Passport).",
+          "Proof of Address (Utility bills like water/electricity/gas, Bank/Kisan/Post Office current Passbook, Registered Rent Agreement).",
+          "Proof of Age (Birth certificate issued by Municipal Authorities, 10th/12th class marksheet, Indian Passport, PAN Card)."
+        ],
+        "importantNotes": [
+          "If you do not have a standard age proof, a declaration by your parents in the prescribed format can sometimes be accepted.",
+          "Utility bills submitted for address proof should ideally be in your name or your parents' name."
+        ]
+      },
+      {
+        "title": "Valid IDs for Polling Day",
+        "summary": "You can vote using your EPIC (Voter ID) or any of the 12 officially approved alternative photo identity documents.",
+        "detailedExplanation": "While it is highly recommended to carry your Elector Photo Identity Card (EPIC) to the polling booth, the Election Commission understands that voters might occasionally lose or forget their cards. Therefore, to ensure that no legitimate voter is turned away, you are permitted to cast your vote using alternative government-issued photo identity documents, provided your name is definitely listed on the final electoral roll of that specific polling booth.",
+        "steps": [],
+        "importantNotes": [
+          "Approved IDs include: Aadhaar Card, MNREGA Job Card, Passbooks with photograph issued by Bank/Post Office, Health Insurance Smart Card issued under the scheme of Ministry of Labour, Driving License, PAN Card, Smart Card issued by RGI under NPR, Indian Passport, Pension document with photograph, Service Identity Cards with photograph issued to employees by Central/State Govt./PSUs/Public Limited Companies, and Official identity cards issued to MPs/MLAs/MLCs.",
+          "Voter Information Slips (VIS) distributed before elections are NOT accepted as proof of identity."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "EPIC (Voter ID)",
+    "icon": "CreditCard",
+    "topics": [
+      {
+        "title": "What is an EPIC?",
+        "summary": "The Elector Photo Identity Card (EPIC) is a secure, unique identification card issued by the ECI to registered voters.",
+        "detailedExplanation": "The Elector Photo Identity Card (EPIC), commonly known as a Voter ID card, was introduced by the Election Commission of India in 1993 to prevent voter impersonation and electoral fraud. It is a permanent document containing a unique EPIC Number, your photograph, name, relative's name, gender, date of birth, and address. Modern EPIC cards are printed on durable PVC and include security features like holograms and a barcode to facilitate easy scanning by polling officials on election day.",
+        "steps": [],
+        "importantNotes": [
+          "Having an EPIC does not guarantee the right to vote; your name MUST be present on the current electoral roll of your constituency.",
+          "You can download a digital version of your Voter ID, called e-EPIC, from the Voter Portal or Voter Helpline App."
+        ]
+      },
+      {
+        "title": "How to make corrections in EPIC",
+        "summary": "Corrections to your name, photo, or address on the Voter ID can be made by submitting Form 8 on the NVSP portal.",
+        "detailedExplanation": "If you find errors in your Voter ID card, such as a misspelled name, incorrect date of birth, or an outdated photograph, you must get it corrected to prevent issues on polling day. The Election Commission provides a dedicated form—Form 8—for shifting of residence, correction of entries, replacement of EPIC, and marking of Persons with Disabilities. The process is fully digitized and can be completed from the comfort of your home using the Voters' Service Portal.",
+        "steps": [
+          "Visit the Voters' Service Portal (voters.eci.gov.in) and log in.",
+          "Select 'Form 8' (Correction of Entries).",
+          "Choose whether you are applying for yourself or another family member.",
+          "Select the specific field(s) you need to correct (e.g., Name, Age, Photograph).",
+          "Upload the supporting documentary proof for the requested correction (e.g., 10th marksheet for name correction).",
+          "Submit the form and note the Reference ID to track your application status."
+        ],
+        "importantNotes": [
+          "A BLO (Booth Level Officer) may visit your residence to physically verify the correction request, especially for address changes."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "NVSP Registration",
+    "icon": "UserPlus",
+    "topics": [
+      {
+        "title": "Online Registration Process (Form 6)",
+        "summary": "First-time voters can easily register online by filling out Form 6 on the official Voters' Service Portal and uploading required documents.",
+        "detailedExplanation": "The National Voter's Service Portal (NVSP), now integrated into the central ECI portal, offers a seamless online experience for civic registration. Form 6 is the application specifically designed for the inclusion of names for first-time voters or voters shifting from one constituency to another. The online form is divided into sections covering personal details, ordinary residence, family details, and a declaration. Once submitted, the application undergoes a multi-stage verification process by the Electoral Registration Officer (ERO).",
+        "steps": [
+          "Go to voters.eci.gov.in and create an account using your mobile number and OTP.",
+          "Log in and click on 'Fill Form 6' for new voter registration.",
+          "Select your State, District, and Assembly Constituency.",
+          "Fill in your personal details, including name, date of birth, and gender.",
+          "Enter your complete residential address and upload valid address proof.",
+          "Upload your recent passport-size photograph.",
+          "Enter details of a family member whose name is already in the electoral roll (optional but recommended).",
+          "Complete the declaration and submit the form.",
+          "Save the acknowledgement number to track your application."
+        ],
+        "importantNotes": [
+          "Ensure your uploaded photograph has a plain, light background and your face is clearly visible.",
+          "You can apply up to 3 months in advance of turning 18 if an election is scheduled near your 18th birthday, based on specific qualifying dates (Jan 1, Apr 1, Jul 1, Oct 1)."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Polling Day",
+    "icon": "Clock",
+    "topics": [
+      {
+        "title": "Rules inside the polling booth",
+        "summary": "Strict protocols govern behavior inside the polling booth to maintain decorum, secrecy, and security during the election.",
+        "detailedExplanation": "To ensure free and fair elections, the Election Commission enforces strict rules within a 100-meter radius of the polling station, and even stricter rules inside the actual booth. The Presiding Officer has complete authority inside the booth and is responsible for maintaining order. Voters are expected to follow instructions quietly, cast their vote promptly, and exit the premises to prevent overcrowding.",
+        "steps": [
+          "Join the queue peacefully. Senior citizens, pregnant women, and persons with disabilities are given priority.",
+          "Keep your ID documents ready for inspection.",
+          "Do not engage in political discussions or attempt to influence other voters.",
+          "Cast your vote secretly; do not show your selection to anyone.",
+          "Leave the polling station immediately after casting your vote."
+        ],
+        "importantNotes": [
+          "Photography and videography are strictly prohibited inside the polling booth.",
+          "Carrying mobile phones, smartwatches, or any electronic recording devices into the voting compartment is a punishable offense.",
+          "No political party symbols, caps, or promotional material can be worn inside."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Model Code of Conduct",
+    "icon": "Gavel",
+    "topics": [
+      {
+        "title": "What is the MCC?",
+        "summary": "The Model Code of Conduct is a set of guidelines issued by the ECI to regulate political parties and candidates prior to elections.",
+        "detailedExplanation": "The Model Code of Conduct (MCC) is a unique and powerful mechanism in Indian elections. It is essentially a consensus document agreed upon by all major political parties to ensure a level playing field and prevent the ruling party (at the state or center) from misusing official machinery to gain an unfair electoral advantage. The MCC comes into force immediately the moment the Election Commission announces the election schedule and remains in effect until the election process is completed.",
+        "steps": [],
+        "importantNotes": [
+          "The ruling government cannot announce any new financial grants, lay foundation stones for new projects, or make ad-hoc appointments while the MCC is active.",
+          "Ministers cannot combine their official visits with electioneering work or use official government vehicles for campaigning.",
+          "Appealing to caste or communal feelings for securing votes is strictly forbidden.",
+          "Citizens can report MCC violations directly to the ECI using the 'cVIGIL' mobile application."
+        ]
+      }
+    ]
+  }
+]

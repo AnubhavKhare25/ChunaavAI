@@ -1,0 +1,77 @@
+{
+  "genericTimeline": [
+    { "step": "Election Notification", "details": "The President/Governor issues the notification calling upon the constituencies to elect members." },
+    { "step": "Filing of Nominations", "details": "Candidates file their nomination papers before the Returning Officer." },
+    { "step": "Scrutiny of Nominations", "details": "The Returning Officer examines the validity of nomination papers filed by candidates." },
+    { "step": "Withdrawal of Candidature", "details": "Candidates are given a specific window to withdraw their nominations." },
+    { "step": "Election Campaign", "details": "Official period where parties and candidates reach out to voters (Jan Sampark, Rallies)." },
+    { "step": "Polling Day", "details": "Voters visit polling booths to cast their votes using EVM-VVPAT machines." },
+    { "step": "Counting of Votes", "details": "Votes are counted and results are declared for each constituency." }
+  ],
+  "registrationSteps": [
+    { "step": 1, "title": "Check Eligibility", "desc": "Ensure you are an Indian citizen and 18+ years old on the qualifying date." },
+    { "step": 2, "title": "Form 6 Submission", "desc": "Fill Form 6 on the Voter Service Portal (voters.eci.gov.in) or Voter Helpline App." },
+    { "step": 3, "title": "Upload Documents", "desc": "Upload your photo, age proof, and address proof (Aadhaar, Passport, etc.)." },
+    { "step": 4, "title": "BLO Verification", "desc": "A Booth Level Officer (BLO) will visit your address for physical verification." },
+    { "step": 5, "title": "EPIC Generation", "desc": "Once approved, your Elector Photo Identity Card (EPIC) will be generated and posted." }
+  ],
+  "eciVideos": [
+    { "title": "How to cast Vote using EVM - VVPAT", "url": "https://www.youtube.com/embed/0y_IgDbDXeE?si=auP9fJQrebBVvIo6", "desc": "Official ECI step-by-step guide on voting with Electronic Voting Machines." },
+    { "title": "Understanding the EVM Security", "url": "https://www.youtube.com/embed/QtZIlxw871I?si=Ofzsx7EthVjU1yUQ", "desc": "How Electronic Voting Machines are kept completely secure and tamper-proof." },
+    { "title": "Know Your Candidate (KYC App)", "url": "https://www.youtube.com/embed/Jtam0Gjf7uA?si=K1i-2G0ppO5YunHp", "desc": "Check candidate backgrounds and criminal records via official ECI apps." }
+  ],
+  "requiredDocuments": [
+    { "category": "Identity & Age Proof", "items": [
+      { "name": "Aadhaar Card", "purpose": "Universal proof of ID and address.", "imageUrl": "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?auto=format&fit=crop&q=80&w=300" },
+      { "name": "Birth Certificate", "purpose": "Standard proof for age verification.", "imageUrl": "https://images.unsplash.com/photo-1603513337923-4f9547d48375?auto=format&fit=crop&q=80&w=300" },
+      { "name": "PAN Card", "purpose": "Valid photo identification.", "imageUrl": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&q=80&w=300" }
+    ]},
+    { "category": "Address Proof", "items": [
+      { "name": "Passport", "purpose": "Official international ID and address proof.", "imageUrl": "https://images.unsplash.com/photo-1544211151-50853507d721?auto=format&fit=crop&q=80&w=300" },
+      { "name": "Electricity/Water Bill", "purpose": "Recent utility bills (last 3 months).", "imageUrl": "https://images.unsplash.com/photo-1554224155-1696413565d3?auto=format&fit=crop&q=80&w=300" },
+      { "name": "Bank Passbook", "purpose": "Updated bank account statement.", "imageUrl": "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?auto=format&fit=crop&q=80&w=300" }
+    ]}
+  ],
+  ],
+  "turnoutTrends": [
+    { "year": 1951, "turnout": 45.7, "voters": 17.3 },
+    { "year": 1957, "turnout": 55.4, "voters": 19.3 },
+    { "year": 2014, "turnout": 66.4, "voters": 83.4 },
+    { "year": 2019, "turnout": 67.4, "voters": 91.2 },
+    { "year": 2024, "turnout": 66.3, "voters": 96.8 }
+  ],
+  "stateTurnout": [
+    { "state": "Andhra Pradesh", "turnout2019": 79.8, "turnout2024": 81.86 },
+    { "state": "West Bengal", "turnout2019": 81.7, "turnout2024": 79.29 },
+    { "state": "Kerala", "turnout2019": 77.8, "turnout2024": 71.27 },
+    { "state": "Tamil Nadu", "turnout2019": 72.4, "turnout2024": 69.72 },
+    { "state": "Gujarat", "turnout2019": 64.5, "turnout2024": 60.13 },
+    { "state": "Maharashtra", "turnout2019": 61.1, "turnout2024": 61.39 },
+    { "state": "Uttar Pradesh", "turnout2019": 59.2, "turnout2024": 56.92 },
+    { "state": "Bihar", "turnout2019": 57.3, "turnout2024": 56.19 },
+    { "state": "Assam", "turnout2019": 81.5, "turnout2024": 81.56 },
+    { "state": "Karnataka", "turnout2019": 68.8, "turnout2024": 70.64 }
+  ],
+  "flashcards": [
+    { "id": 1, "title": "Largest Democracy", "fact": "India has over 968 million registered voters.", "category": "General" },
+    { "id": 2, "title": "EVM Transparency", "fact": "VVPAT machines allow voters to verify their vote.", "category": "Technology" },
+    { "id": 3, "title": "First Election", "fact": "The first general elections were held in 1951-52.", "category": "History" }
+  ],
+  "chatbot": {
+    "English": {
+      "welcome": "Namaste! I am your Chunaav Assistant. How can I help you today?",
+      "fallback": "I'm sorry, I can only help with specific topics like Voter ID, EVM, NOTA, and Registration.",
+      "responses": {
+        "voter id": "Check NVSP portal.",
+        "evm": "Secure devices.",
+        "register": "Use Form 6."
+      }
+    }
+  },
+  "importance": [
+    { "title": "Your Voice Matters", "text": "Every single vote counts." }
+  ],
+  "campaigns": [
+    { "type": "Rallies", "description": "Jan Sampark.", "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Narendra_Modi_rally.jpg/512px-Narendra_Modi_rally.jpg" }
+  ]
+}
